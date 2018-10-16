@@ -33,3 +33,6 @@ body {
 .user_atten li strong {
     display: initial;
 }
+.send_weibo .key {
+    display: none;
+}
