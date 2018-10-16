@@ -1,0 +1,35 @@
+#v6_pl_rightmod_recominfo, #v6_pl_rightmod_rank, #v6_pl_rightmod_attfeed, #v6_trustPagelet_recom_member, #v6_pl_rightmod_noticeboard {
+    display: none;
+}
+body {
+    background-position: 250% top;
+}
+#skin_cover_s {
+    background: transparent!important;
+}
+#v6_pl_rightmod_myinfo .S_bg2 {
+    background: rgba(255, 255, 255, .5)
+}
+.W_person_info {
+    height: auto;
+}
+.W_person_info .cover .headpic {
+    margin-left: -33px;
+}
+.nameBox {
+    display: none;
+}
+.WB_main_r {
+    position: sticky;
+    top: 66px;
+    width: 100px;
+}
+.user_atten {
+    height: auto;
+}
+.user_atten li {
+    width: 100%;
+}
+.user_atten li strong {
+    display: initial;
+}
