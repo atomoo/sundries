@@ -10,6 +10,11 @@ body {
 #v6_pl_rightmod_myinfo .S_bg2 {
     background: rgba(255, 255, 255, .5)
 }
+.PCD_header .photo_wrap, .PCD_header .pf_photo .photo,
+.W_person_info .cover .headpic,
+.W_face_radius {
+    border-radius: 0;
+}
 .W_person_info {
     height: auto;
 }
