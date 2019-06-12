@@ -1,0 +1,37 @@
+{
+    "editor.fontFamily": "Iosevka SS03, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "gitlens.currentLine.format": "${date} • ${author}• ${message}",
+    "window.zoomLevel": 0,
+    "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm:ss",
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [],
+        "Red"
+    ],
+    "tslint.configFile": "./tslint.json",
+    "editor.rulers": [120],
+    "todo-tree.excludeGlobs": [
+        "**/node_modules/**",
+        "**/dist/**",
+        "**/bower_components/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map"
+    ],
+    "todo-tree.defaultHighlight": {
+        "icon": "checklist",
+        "type": "text",
+        "foreground": "#ffab00",
+        "background": "white",
+        "opacity": 30,
+        "iconColour": "yellow"
+    },
+    "leetcode.endpoint": "leetcode-cn",
+    "gitlens.views.fileHistory.location": "explorer"
+}
