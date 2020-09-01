@@ -1,0 +1,24 @@
+.ArticleItem-image,
+.ztext .content_image,
+.ztext .origin_image,
+.GifPlayer,
+.RichText-video {
+    width: 50px;
+}
+
+.ztext .content_image:hover,
+.ztext .origin_image:hover,
+.GifPlayer:hover,
+.ArticleItem-image:hover,
+.RichText-video:hover,
+.ztext .content_image:focus,
+.ztext .origin_image:focus,
+.GifPlayer:focus,
+.ArticleItem-image:focus,
+.RichText-video:focus{
+    width: 100%;
+}
+
+.RichContent-cover {
+    display: none;
+}
