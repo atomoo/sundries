@@ -7,7 +7,9 @@
     display: none;
 }
 .woo-box-flex[class*=Frame_content] {
-    width: 1240px;
+    min-width: 1240px;
+    width: 80%;
+    max-width: 100%;
 }
 
 .woo-box-flex [class^=Frame_main] {
@@ -17,12 +19,30 @@
     max-width: 600px;
 }
 
-.wbpro-feed-content .u-col-4 {
+.u-col-4 {
     width: 672px;
 }
-.wbpro-feed-content .u-col-3 {
+.u-col-3{
     width: 504px;
 }
 .wbpro-feed-content [class*=card-article] {
     max-height: 200px;
+}
+
+.woo-box-column + [class*=Frame_wrap] {
+    position: fixed;
+    left: auto;
+    width: 600px;
+}
+
+[class*=Viewer_angleBtn] {
+    transform: none !important;
+    left: 10px;
+    right: auto;
+    bottom: -65px;
+    top: auto;
+}
+
+[class*=Viewer_angleRight] {
+    left: 65px;
 }
