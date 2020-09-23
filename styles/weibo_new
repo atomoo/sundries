@@ -1,0 +1,28 @@
+[class^=Main_full_] {
+    width: 100%;
+    flex: 1;
+}
+[class^=Main_full_] + [class^=Main_side] {
+    width: 0;
+    display: none;
+}
+.woo-box-flex[class*=Frame_content] {
+    width: 1240px;
+}
+
+.woo-box-flex [class^=Frame_main] {
+    flex: 1;
+}
+[class^=card-video_videoBox] {
+    max-width: 600px;
+}
+
+.wbpro-feed-content .u-col-4 {
+    width: 672px;
+}
+.wbpro-feed-content .u-col-3 {
+    width: 504px;
+}
+.wbpro-feed-content [class*=card-article] {
+    max-height: 200px;
+}
