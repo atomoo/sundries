@@ -46,3 +46,7 @@
 [class*=Viewer_angleRight] {
     left: 65px;
 }
+[class*=Frame_side] {
+    width: 0;
+    display: none;
+}
