@@ -1,37 +1,114 @@
 {
-    "editor.fontFamily": "Iosevka SS03, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 16,
-    "gitlens.currentLine.format": "${date} • ${author}• ${message}",
-    "window.zoomLevel": 0,
+    "editor.fontFamily": "'JetBrains Mono', 'Iosevka', '霞鹜文楷等宽','等距更纱黑体 SC', Consolas, 'Courier New', monospace",
+    "editor.rulers": [
+        120
+    ],
+    "gitlens.currentLine.format": "${author}, ${date} • ${message}",
     "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm:ss",
-    "bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
-        [],
-        "Red"
-    ],
-    "tslint.configFile": "./tslint.json",
-    "editor.rulers": [120],
-    "todo-tree.excludeGlobs": [
-        "**/node_modules/**",
-        "**/dist/**",
-        "**/bower_components/**",
-        "**/build/**",
-        "**/.vscode/**",
-        "**/.github/**",
-        "**/_output/**",
-        "**/*.min.*",
-        "**/*.map"
-    ],
-    "todo-tree.defaultHighlight": {
-        "icon": "checklist",
-        "type": "text",
-        "foreground": "#ffab00",
-        "background": "white",
-        "opacity": 30,
-        "iconColour": "yellow"
+    "gitlens.views.repositories.files.layout": "list",
+    "editor.fontWeight": "500",
+    "editor.minimap.maxColumn": 250,
+    "editor.renderWhitespace": "trailing",
+    "files.eol": "\n",
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
     },
-    "leetcode.endpoint": "leetcode-cn",
-    "gitlens.views.fileHistory.location": "explorer"
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "classic",
+    "workbench.statusBar.visible": true,
+    "editor.wordWrapColumn": 120,
+    "workbench.editor.decorations.colors": true,
+    "workbench.editor.decorations.badges": true,
+    "gitlens.advanced.blame.delayAfterEdit": 10000,
+    "gitlens.advanced.maxListItems": 20,
+    "debug.javascript.autoAttachFilter": "disabled",
+    "debug.allowBreakpointsEverywhere": true,
+    "files.watcherExclude": {
+        "**/dist/*/**": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+            "source.fixAll.stylelint": false
+        }
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+            "source.fixAll.stylelint": false
+        }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+            "source.fixAll.stylelint": false
+        }
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+            "source.fixAll.stylelint": false
+        }
+    },
+    "eslint.codeActionsOnSave.mode": "problems",
+    "editor.formatOnSave": true,
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.tsserver.log": "off",
+    "javascript.format.semicolons": "insert",
+    "editor.largeFileOptimizations": false,
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue"
+    ],
+    "gitlens.hovers.avatars": false,
+    "editor.fontLigatures": true,
+    "[vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "vetur.validation.template": false,
+    // "vetur.validation.script": false,
+    "vetur.validation.style": false,
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.ts": "vscode-typescript",
+    "typescript.preferences.includePackageJsonAutoImports": "on",
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            "bracketSpacing": false
+        },
+        "js-beautify-html": {
+            "wrap_attributes": "force-expand-multiline"
+        },
+        "prettyhtml": {
+            "printWidth": 120,
+            "singleQuote": false,
+            "wrapAttributes": false,
+            "sortAttributes": false
+        }
+    },
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    "algorithm.lang": "cn",
+    "workbench.colorTheme": "GitHub Light",
+    "oneDarkPro.italic": false,
+    "vscode-edge-devtools.themes": "Dark",
+    "vscode-edge-devtools.mirrorEdits": true,
+    "editor.guides.bracketPairs": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontSize": 16,
+    "editor.suggestSelection": "first"
 }
