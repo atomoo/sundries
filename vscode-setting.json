@@ -38,9 +38,11 @@
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true,
             "source.fixAll.stylelint": false
-        }
+        },
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true,
             "source.fixAll.stylelint": false
