@@ -40,3 +40,8 @@ html[data-theme="light"] .Button--primary.Button--blue {color: #fff !important;b
 }
 
 
+.HotItem-metrics--bottom {
+    position: static;
+}
+
+
