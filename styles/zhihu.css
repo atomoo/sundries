@@ -1,24 +1,42 @@
-.ArticleItem-image,
-.ztext .content_image,
-.ztext .origin_image,
-.GifPlayer,
-.RichText-video {
-    width: 50px;
+
+main.App-main > .Topstory > div:not(.Topstory-container) {display: none !important;}
+html[data-theme="light"] header.AppHeader {background-color: #ffffff !important; -webkit-box-shadow: 0 1px 3px rgba(18,18,18,.1) !important; box-shadow: 0 1px 3px rgba(18,18,18,.1) !important;}
+html[data-theme="light"] header.AppHeader a[aria-label="知乎"] svg {filter: invert(57%) sepia(71%) saturate(949%) hue-rotate(190deg) brightness(86%) contrast(188%) !important;}
+html[data-theme="light"] .AppHeader-TabsLink {color: #8590a6 !important; font-weight: normal !important;}
+html[data-theme="light"] .AppHeader-userInfo Button svg, .SearchBar-searchButton svg {color: inherit !important;}
+html[data-theme="light"] .Input-wrapper.Input-wrapper--grey {background: #f6f6f6 !important;}
+html[data-theme="light"] .AppHeader-SearchBar input.Input {color: #121212 !important;}
+html[data-theme="light"] .AppHeader-SearchBar input::-webkit-input-placeholder {color: #a4a4a4 !important;}
+html[data-theme="light"] .AppHeader-SearchBar input:-moz-placeholder {color: #a4a4a4 !important;}
+html[data-theme="light"] .AppHeader-SearchBar input::-moz-placeholder {color: #a4a4a4 !important;}
+html[data-theme="light"] .Button--primary.Button--blue {color: #fff !important;background-color: #06f !important;}
+
+.Topstory-container, .Question-main, .Search-container {
+    width: 90% !important;
 }
 
-.ztext .content_image:hover,
-.ztext .origin_image:hover,
-.GifPlayer:hover,
-.ArticleItem-image:hover,
-.RichText-video:hover,
-.ztext .content_image:focus,
-.ztext .origin_image:focus,
-.GifPlayer:focus,
-.ArticleItem-image:focus,
-.RichText-video:focus{
+.Topstory-container .Topstory-mainColumn, .Question-mainColumn, .SearchMain, .ListShortcut {
+    flex: 1 1 100%;
     width: 100%;
 }
 
-.RichContent-cover {
+.Topstory-container .Topstory-mainColumn ~ div{
+    width: 200px;
+}
+
+.Topstory-container .Topstory-mainColumn ~ div .Card {
+    width: 100% !important;
+}
+
+.ztext .content_image, .ztext .origin_image, .GifPlayer img {max-height: 500px;width: auto;}
+
+.ZVideoItem-video div {
     display: none;
 }
+
+.ZVideoItem-video::before {
+    content: '【video】';
+    padding: 0;
+}
+
+
